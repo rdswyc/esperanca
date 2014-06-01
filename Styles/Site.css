@@ -1,0 +1,257 @@
+﻿@charset "UTF-8";
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url(/Fonts/segoeui.ttf);
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    src: url(/Fonts/segoeuib.ttf);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: darkgoldenrod;
+    background-image: url(/Images/texture.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin: 0;
+}
+
+h1 {
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+#header {
+    background-color: #e3ce2d;
+    margin: 20px auto;
+    height: 40px;
+    opacity: 0.9;
+}
+
+#container {
+    background-color: white;
+    margin: auto auto 80px auto;
+    padding: 5px;
+    width: 960px; min-height: 600px;
+    box-shadow: 0 0 20px 7px black;
+}
+
+#footer {
+    background-color: darkgoldenrod;
+    border-top: 3px solid #e3ce2d;
+    height: 60px; width: 100%;
+    min-width: 960px;
+    position: fixed; bottom: 0;
+    opacity: 0.95;
+}
+
+    #footBox {
+        width: 960px;
+        margin: auto;
+    }
+
+    #footBox div {
+        float: left;
+        margin: 10px auto auto 50px;
+    }
+
+    #footBox a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #footBox img {
+        height: 32px;
+        border: none;
+        vertical-align: middle;
+    }
+
+    span.web {
+        font-size: 10pt;
+    }
+
+    span.address {
+        display: block;
+        font-size: 10.5pt;
+    }
+
+    #powered {
+        font-size: 9pt;
+        text-align: right;
+        opacity: 0.5;
+    }
+
+        #powered:hover {
+            opacity: 1;
+        }
+
+#menu {
+    list-style-type: none;
+    margin: auto; padding: 0;
+    height: 40px; width: 660px;
+}
+
+    #menu li {
+        text-align: center;
+        margin: 9.5px 5px;
+        height: 21px; width: 100px;
+        float: left;
+    }
+
+    #menu a:link, #menu a:visited {
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        width: 100px;
+    }
+
+    #menu a.active:link, #menu a.active:visited, #menu a:hover, #menu a:active {
+        color: black;
+    }
+
+
+#feature {
+    height: 400px;
+    overflow: hidden;
+}
+
+    #feature ul {
+        list-style-type: none;
+        margin: auto; padding: 0;
+        height: 400px;
+    }
+
+    #feature li {
+        height: 400px; width: 960px;
+        float: left;
+        overflow: hidden;
+    }
+
+
+#boxes {
+    margin: 10px -10px 0 -10px;
+    height: 200px;
+}
+
+    #boxes div {
+        border: 1px solid #e3ce2d;
+        margin: 10px; float: left;
+        height: 178px; width: 304px;
+        overflow: hidden;
+        box-shadow: 0 0 5px 0.5px #e3ce2d;
+    }
+
+    #boxes h1 {
+        font-size: 14pt;
+        margin: 5px 20px;
+    }
+
+    #boxes p {
+        font-size: 11pt;
+        margin: 10px;
+        text-align: justify;
+    }
+
+    #boxes p.em {
+        font-weight: bold;
+        margin: 15px auto -7.5px 10px;
+    }
+
+    #boxes a {
+        text-decoration: none;
+        font-weight: bold;
+        color: darkgoldenrod;
+        margin: -10px 10px;
+        float: right;
+    }
+
+    #boxes img {
+        height: 180px;
+        width: 306px;
+    }
+
+#columns {
+    height: 770px;
+    padding: 25px;
+}
+
+    #column1 {
+        float:left;
+        width: 60%;
+    }
+
+    #column2 {
+        float: right;
+        width: 35%;
+    }
+
+    #columns p {
+        text-align: justify;
+        text-indent: 50px;
+    }
+
+    #columns pre {
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        font-size: 11pt;
+    }
+
+    #columns img {
+        height: 180px; width: 307px;
+        margin: 5px;
+        border: 1px solid black;
+        box-shadow: 0 0 5px 0.5px black;
+        display: block;
+    }
+
+div.PicsImg {
+    height: 178px; width: 304px;
+    overflow: hidden;
+    float: left;
+    margin: 7px;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 0.5px black;
+}
+
+iframe {
+    height: 500px;
+    width: 940px;
+    margin: 10px;
+}
+
+small {
+    color: #0000FF;
+    text-align: left;
+    margin: 0px 10px;
+}
+
+#contactDiv {
+    margin: 20px;
+}
+
+    #contactDiv label {
+        display: block;
+    }
+
+    #contactDiv input {
+        width: 400px;
+        margin: 5px auto 20px 0px;
+    }
+
+    #contactDiv textarea {
+        height: 200px;
+        width: 800px;
+        margin: 5px auto 20px 0px;
+    }
+
+    #contactDiv img {
+        height: 200px;
+        border: 1px solid black;
+        float: right;
+        margin: -490px 10px auto auto;
+        height: 178px; width: 304px;
+        box-shadow: 0 0 5px 0.5px black;
+    }

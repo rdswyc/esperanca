@@ -1,0 +1,63 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="Esperanca.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="O salão de festas Esperança, localizado em meio à natureza e calmaria que o bairro Umbará proporciona, é o espaço perfeito para festas de 15 anos, casamentos (com cerimônia), bodas, reuniões empresariais e eventos em geral." />
+        <meta name="keywords" content="esperança,festas,salão,casamento,cerimônias,eventos,espaço" />
+        <meta name="author" content="Rodrigo Chin" />
+        <title>Salão de Festas Esperança</title>
+        <link rel="stylesheet" type="text/css" href="/Styles/Site.css" />
+        <script type="text/javascript" src="/Scripts/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="/Scripts/Script.js"></script>
+    </head>
+
+    <body>
+
+        <div id="header">
+            <ul id="menu">
+                <asp:ContentPlaceHolder ID="menuItems" runat="server" />
+            </ul>
+        </div>
+
+        <div id="container">
+            <asp:ContentPlaceHolder ID="content" runat="server" />
+        </div>
+
+        <div id="footer">
+
+            <div id="footBox">
+                <div>
+                    <a href="https://www.facebook.com/salaoesperanca10" target="_blank">
+                        <span>
+                            <img alt="Facebook" src="Images/Facebook.png" />
+                            <span class="web">/salaoesperanca10</span>
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <a href="mailto:esperancaeventos@gmail.com" target="_blank">
+                        <span>
+                            <img alt="E-mail" src="Images/gmail.png" />
+                            <span class="web">esperancaeventos@gmail.com</span>
+                        </span>
+                    </a>
+                </div>
+                <div>
+                    <span class="address">Rua Nicola Pellanda 6120, Umbará, Curitiba-PR</span>
+                    <span class="address">(41) 3289-9798 | (41) 8894-6031</span>
+                </div>
+                <div id="powered">
+                    <a href="mailto:rdswyc@hotmail.com" target="_blank">
+                        <span>powered by<br />Chin | 2014</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
